@@ -4,12 +4,6 @@ import Navbar from './Navbar'
 import About from './pages/about/About'
 import Blog from './pages/blog/Blog'
 import Engines from './pages/engines/Engines'
-import { ProtectedRoute } from './components/ProtectedRoute'
-import { AdminLayout } from './pages/admin/AdminLayout'
-import { AdminLogin } from './pages/admin/AdminLogin'
-import { AdminDashboard } from './pages/admin/AdminDashboard'
-import { AdminPostList } from './pages/admin/AdminPostList'
-import { AdminPostEdit } from './pages/admin/AdminPostEdit'
 import './App.css'
 
 function Home() {
@@ -63,21 +57,6 @@ function SiteShell() {
 function App() {
   return (
     <Routes>
-      <Route path="/admin/login" element={<AdminLogin />} />
-      <Route
-        path="/admin"
-        element={
-          <ProtectedRoute>
-            <AdminLayout />
-          </ProtectedRoute>
-        }
-      >
-        <Route index element={<AdminDashboard />} />
-        <Route path="posts" element={<AdminPostList />} />
-        <Route path="posts/new" element={<AdminPostEdit />} />
-        <Route path="posts/:id" element={<AdminPostEdit />} />
-      </Route>
-
       <Route element={<SiteShell />}>
         <Route index element={<Home />} />
         <Route path="about" element={<About />} />

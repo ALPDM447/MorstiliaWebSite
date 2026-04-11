@@ -15,10 +15,10 @@ const engines: EngineInfo[] = [
   {
     id: "morstilia",
     name: "Morstilia",
-    description: "A powerful chess engine written in Python for developers and enthusiasts. Uses advanced static evaluation and search algorithms.",
+    description: "My first chess engine.",
     language: "Python",
     version: "v5",
-    elo: "TBD",
+    elo: "1400",
     githubLink: "https://github.com/ALPDM447/MorstiliaChessEngine",
     downloadLink: "https://github.com/ALPDM447/MorstiliaChessEngine/releases"
   },
@@ -72,7 +72,7 @@ function Engines() {
                   target="_blank" 
                   rel="noopener noreferrer"
                 >
-                  GitHub'da İncele
+                  GitHub
                 </a>
               )}
               {engine.downloadLink && (

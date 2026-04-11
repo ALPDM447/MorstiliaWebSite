@@ -98,9 +98,10 @@
 }
 
 .engine-btn {
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 100%;
-  text-align: center;
   padding: 10px 16px;
   background: var(--accent);
   color: var(--bg);
