@@ -22,6 +22,16 @@ const engines: EngineInfo[] = [
     githubLink: "https://github.com/ALPDM447/MorstiliaChessEngine",
     downloadLink: "https://github.com/ALPDM447/MorstiliaChessEngine/releases"
   },
+  {
+    id: "shxegs",
+    name: "Shxegs",
+    description: "Strong python chess engine.",
+    language: "Python",
+    version: "v1",
+    elo: "1800",
+    githubLink: "https://github.com/ALPDM447/ShxegsChessEngine",
+    downloadLink: "https://github.com/ALPDM447/ShxegsChessEngine/releases"
+  },
   // Yeni satranç motorlarını aşağıya ekleyebilirsiniz:
   // {
   //   id: "yeni-motor",
