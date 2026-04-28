@@ -1,73 +1,120 @@
-# React + TypeScript + Vite
+<div align="center">
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<img src="https://raw.githubusercontent.com/ALPDM447/MorstiliaWebSite/main/src/assets/mc-logo.png" alt="Morstilia Logo" width="120" height="120">
 
-Currently, two official plugins are available:
+<h1>♟️ Morstilia</h1>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+<p>
+  <strong>Python Open-Source Chess Engine</strong>
+</p>
 
-## React Compiler
+<p>
+  <a href="https://github.com/ALPDM447/MorstiliaChessEngine/releases">
+    <img src="https://img.shields.io/github/v/release/ALPDM447/MorstiliaChessEngine?color=blue&label=Download&style=for-the-badge" alt="Download">
+  </a>
+  <img src="https://img.shields.io/badge/Python-3.8+-yellow?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/React-19-blue?style=for-the-badge&logo=react&logoColor=white" alt="React">
+  <img src="https://img.shields.io/badge/TypeScript-5.9-blue?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript">
+  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License">
+</p>
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+</div>
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🚀 About
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+**Morstilia** is a powerful chess engine written in Python for developers and chess enthusiasts. This repository contains the official website for the Morstilia chess engine.
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## 🛠️ Technologies
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+<table>
+<tr>
+<td>
+
+**Frontend**
+- ⚛️ React 19
+- 📘 TypeScript 5.9
+- ⚡ Vite 8
+- 🎨 CSS3
+- 🔷 Lucide React Icons
+
+</td>
+<td>
+
+**Tools**
+- 🧪 ESLint 9
+- 🔧 Vitest
+- 📦 npm
+
+</td>
+</tr>
+</table>
+
+## 📁 Project Structure
+
+```
+MorstiliaWebSite/
+├── public/                 # Static files
+├── src/
+│   ├── assets/            # Images and media
+│   ├── pages/             # Page components
+│   │   ├── about/         # About page
+│   │   ├── blog/          # Blog page
+│   │   └── engines/       # Engines page
+│   ├── App.tsx            # Main application
+│   ├── Navbar.tsx         # Navigation
+│   └── main.tsx           # Entry point
+├── index.html
+├── package.json
+└── README.md
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 🚀 Getting Started
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### Prerequisites
+- Node.js 18+
+- npm or yarn
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/ALPDM447/MorstiliaWebSite.git
+
+# Navigate to project directory
+cd MorstiliaWebSite
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
 ```
+
+## 📜 Commands
+
+| Command | Description |
+|---------|-------------|
+| `npm run dev` | Start development server |
+| `npm run build` | Create production build |
+| `npm run preview` | Preview build |
+| `npm run lint` | Run ESLint code check |
+
+## 🔗 Links
+
+- 🌐 **Website**: [morstilia.netlify.app](https://morstilia.netlify.app)
+- ♟️ **Chess Engine**: [MorstiliaChessEngine](https://github.com/ALPDM447/MorstiliaChessEngine)
+- 📧 **Contact**: morstilia@gmail.com
+- 🐙 **GitHub**: [@ALPDM447](https://github.com/ALPDM447)
+
+## 📄 License
+
+This project is licensed under the [MIT](LICENSE) License.
+
+---
+
+<div align="center">
+  <p>Made by <strong>Alp</strong></p>
+  <p>© 2026 Morstilia. All rights reserved.</p>
+</div>
