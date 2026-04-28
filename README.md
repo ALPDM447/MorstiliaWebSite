@@ -103,7 +103,7 @@ npm run dev
 
 ## 🔗 Links
 
-- 🌐 **Website**: [morstilia.netlify.app](https://morstilia.netlify.app)
+- 🌐 **Website**: None
 - ♟️ **Chess Engine**: [MorstiliaChessEngine](https://github.com/ALPDM447/MorstiliaChessEngine)
 - 📧 **Contact**: morstilia@gmail.com
 - 🐙 **GitHub**: [@ALPDM447](https://github.com/ALPDM447)
